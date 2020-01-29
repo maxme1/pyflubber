@@ -8,6 +8,10 @@ The code for closed lines is based on the
 ## Installation
 
 ```bash
+pip install git+https://github.com/maxme1/pyflubber.git
+```
+
+```bash
 git clone https://github.com/maxme1/pyflubber.git
 cd pyflubber
 pip install -e .
