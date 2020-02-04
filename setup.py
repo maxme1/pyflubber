@@ -16,6 +16,7 @@ with open('requirements.txt', encoding='utf-8') as file:
 setup(
     name='pyflubber',
     packages=find_packages(include=('pyflubber',)),
+    include_package_data=True,
     version=__version__,
     descriprion='Linear interpolation of open and closed lines.',
     long_description=long_description,
@@ -23,7 +24,7 @@ setup(
     license='MIT',
     url='https://github.com/maxme1/pyflubber',
     download_url='https://github.com/maxme1/pyflubber/v%s.tar.gz' % __version__,
-    keywords=[],
+    keywords=['interpolation', 'curves'],
     classifiers=classifiers.splitlines(),
     install_requires=requirements,
 )
